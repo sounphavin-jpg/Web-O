@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(6, 61, 43);
+}
+#info {
+    color: rgb(170, 219, 55);
+}
+.hoho {
+    color: blueviolet;
+}
+
+#tablestyle td{
+    border: 1px solid black;
+    padding: 8px;text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
