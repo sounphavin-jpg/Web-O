@@ -1,0 +1,511 @@
+.cinzel {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+.cinzelsection {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 40px;
+  color: white;
+}
+
+.cinzelb {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(65, 69, 114);
+}
+
+.merriweather {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+ font size: 16px;
+}
+p {
+    font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+ font size: 16px;
+}
+
+h3 {
+    font-family: "Cinzel Decorative", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(65, 69, 114);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #7473a0;
+    padding: 10px 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+ }
+
+.logo img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+.logo span {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fffff;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 70px;
+    font-weight: 600;
+    font-family: merriweather;
+}
+
+.menu a:hover {
+    color: #94a7db; 
+}
+
+.section {
+    position: relative;
+    width: 100\%;
+    height: 400px; 
+    background: url('img\cloud.png') no-repeat center center/cover; 
+    background: linear-gradient(to bottom, #cbcbe7 100%, #ffffff 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.castle {
+    position: absolute;
+    left: 25px; 
+    bottom: 100px;
+    height: 250px; 
+}
+
+.cup {
+    position: absolute;
+    right: -200px; 
+    bottom: -100px;
+    height: 500px; 
+}
+
+.text-box {
+    position: absolute;
+    left: 350px;
+    bottom: 100px;
+    text-align: left;
+    max-width: 500px;
+    color: #333;
+}
+
+.text-box h2 {
+    font-size: 32px;
+    margin-bottom: -20px;
+}
+
+.text-box p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.cloud {
+    position: absolute;
+    z-index: 1; 
+    opacity: 0.9; 
+}
+
+.cloud1 {
+    bottom: -300px;
+    right: -270px;
+    width: 1100px;
+}
+
+.cloud2 {
+    bottom: -280px;
+    left:10%;
+    width: 880px;
+}
+
+.cloud3 {
+    bottom: -280px;
+    left: -15%;
+    width: 840px;
+}
+.orange-section {
+  background: #f16f33; 
+  padding: 80px 0 50px; 
+  position: relative;
+  height: 250px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: white;
+}
+
+.left {
+  position: relative;
+}
+
+.calcifer {
+  max-width: 800px;
+  position: relative;
+  top: -400px; 
+  left: -250px;
+}
+
+.right {
+  margin-left: 40px;
+  font-family: "Cinzel Decorative", serif;
+}
+
+.text-block {
+  position: absolute;
+  top: 50%;      
+  left: 65%;      
+  transform: translate(-50%, -50%); 
+  text-align: left;
+  color: white;
+  font-family: "Cinzel Decorative", serif;
+}
+body {
+    margin: 0;
+    font-family: 'Cinzel Decorative', cursive;
+    background: #fafafa;
+}
+
+.menu-section {
+    text-align: center;
+    padding: 40px;
+}
+
+.menu-title {
+    font-family: "Cinzel Decorative", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(65, 69, 114);
+  font-size: 48px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-items: center;
+}
+
+.drink {
+    text-align: center;
+    max-width: 200px;
+}
+
+.drink img {
+    width: 300px;
+    height: auto;
+    margin-bottom: -30px;
+}
+
+.drink h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.drink p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.drink .price {
+    font-weight: bold;
+    color: #7b3f00; /* coffee brown */
+}
+
+
+.blue-section {
+  background: #595880; /* blue background */
+  padding: 80px 0 50px;
+  position: relative;
+  height: 250px;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: white;
+  position: relative;
+}
+
+.text-block2 {
+  width: 50%;
+  text-align: left;
+  color: white;
+  font-family: "Cinzel Decorative", serif;
+  z-index: 1;
+    position: absolute;
+  top: 80px;      
+  right: 550px; 
+}
+
+.text-block2 h1 {
+  font-size: 48px;
+  margin: 0 0 10px 0;
+}
+
+.text-block2 p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.right2 {
+  width: 50%;
+  position: relative;
+  text-align: right;
+}
+
+.sophie {
+  max-width: 120%;
+  position: relative;
+  right: -300px;
+  top: -250px;
+}
+
+.snack-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff8f0; /* optional: distinguish from drinks */
+}
+
+.snack-title {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(65, 69, 114);
+    font-size: 48px;
+}
+
+.snack-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-items: center;
+}
+
+.snack {
+    text-align: center;
+    max-width: 200px;
+}
+
+.snack img {
+    width: 300px;
+    height: auto;
+    margin-bottom: -20px;
+}
+
+.snack h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.snack p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.snack .price {
+    font-weight: bold;
+    color: #7b3f00; /* coffee brown */
+}
+
+.green-section {
+  background: #abcd6f; /* green background */
+  padding: 80px 0 50px;
+  position: relative;
+  height: 250px;
+  color: white;
+}
+
+.container3 {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.left3 {
+  position: relative;
+}
+
+.sophie3 {
+  max-width: 800px;
+  position: relative;
+  top: -300px; 
+  left: -150px;
+}
+
+.text-block3 {
+  position: absolute;
+  top: 100px;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-family: "Cinzel Decorative", serif;
+}
+
+.dessert-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff4f8; /* soft pastel for desserts */
+}
+
+.dessert-title {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #b94e7c; 
+}
+
+.dessert-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-items: center;
+}
+
+.dessert {
+    text-align: center;
+    max-width: 200px;
+}
+
+.dessert img {
+    width: 300px;
+    height: auto;
+    margin-bottom: -20px;
+}
+
+.dessert h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.dessert p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.dessert .price {
+    font-weight: bold;
+    color: #7b3f00; /* matches title color */
+}
+
+.footer {
+  background: #cbcbe7;
+  color: #000000;
+  padding: 10px 20px;
+  font-family: 'Merriweather', serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #595880;
+}
+
+.footer-section p,
+.footer-section a {
+  font-size: 0.95rem;
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #595880;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin-bottom: 8px;
+}
+
+.social-icons a img {
+  width: 72px;
+  margin-right: 10px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover img {
+  transform: scale(1.5);
+  filter: brightness(0) invert(1) sepia(1) hue-rotate(40deg) saturate(4);
+}
+
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe-form input {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-family: 'Merriweather', serif;
+}
+
+.subscribe-form button {
+  background: #595880;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.subscribe-form button:hover {
+  background: #ffd87d;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.85rem;
+  border-top: 5px solid rgba(0, 0, 0, 0.3);
+  padding-top: 15px;
+}
