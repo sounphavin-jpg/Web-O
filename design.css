@@ -203,6 +203,7 @@ body {
   font-style: normal;
   color: rgb(65, 69, 114);
   font-size: 48px;
+  text-align: center;
 }
 
 .menu-grid {
@@ -509,3 +510,213 @@ body {
   border-top: 5px solid rgba(0, 0, 0, 0.3);
   padding-top: 15px;
 }
+.contact-hero {
+      position: relative;
+      width: 100%;
+      height: 90vh; /* adjust height */
+      background: linear-gradient(to right, #f8f8f8, #fefeff); /* fallback color */
+      overflow: hidden;
+
+    } 
+
+    /* img\first image home.png */
+    .contact-hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: url("../img\first image home.png") center 10%/cover no-repeat;
+      z-index: 0;   opacity:60%;
+
+    }
+
+    /* Text overlay */
+    .contact-text {
+      position: absolute;
+      top: 20%;   /* move up/down */
+      right: 10%;  /* move left/right */
+      z-index: 1;
+      color: rgb(0, 0, 0);
+      max-width: 40%;
+    }
+
+    .contact-text h1 {
+      font-family: "Cormorant Garamond", serif;
+      font-size: 48px;
+      margin-bottom: 15px;
+    }
+
+    .contact-text p {
+      font-size: 20px;
+      line-height: 1.6;
+    }
+  .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 15px;
+  background: transparent;
+  border: 1px solid #222;
+  color: #222;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #222;
+  color: #fff;
+}
+
+.about::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("img\outdoor eating.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.about {
+  position: relative;
+  padding: 80px 10%;
+  background: url("../img/background image ti 2.jpg") center/cover no-repeat;
+  color: #000;
+  text-align: center;
+  height: 600px;
+  position: relative;
+  z-index: 1;
+
+}
+
+
+
+.about h2 {
+   font-family: "Cinzel Decorative", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  font-size: 48px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap; 
+}
+
+.about-content {
+  position: relative; 
+  display: flex;
+  justify-content: flex-start; 
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: nowrap; 
+}
+
+.about-left img {
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transform: scale(1.5); 
+  margin-top: 70px;
+  position: relative; 
+  left: 100px;     
+}
+
+.about-right {
+  position: absolute; 
+  top: 20px;             
+  right: 100px;       
+  max-width: 250px;
+  text-align: center;
+  background: rgba(255,255,255,0.8);
+  padding: 20px;
+  border-radius: 8px;
+  height: 300px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.about-right .about-icon {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.about-right p {
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+
+}
+.drink h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+  
+}
+
+.discount {
+  margin: 15px 0;
+  font-style: italic;
+}
+
+.reviews {
+  background: #f4f0eb;
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.review-card {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-card img {
+  width: 700px;
+
+}
+
+.review-text {
+  text-align: left;
+
+}
+
+.review-actions {
+  margin-top: 20px;
+}
+
+.review-actions .btn {
+  margin: 5px;
+  
+}
+
+.purple {
+  background: #595880;
+  color: #fff;
+  border-radius:64px ;
+}
+.purple button:hover{
+   background:rgb(65, 69, 114)
+}
+
+.merriweatherr {
+  font-size: 24;
+  text-align: center;
+  margin-bottom: 2cm;
+
+}
+.btn {
+  font-size: 16;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+  
